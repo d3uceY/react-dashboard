@@ -1,0 +1,10 @@
+.bell-container:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 100%;
+}

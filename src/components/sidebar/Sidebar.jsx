@@ -8,7 +8,7 @@ import './sidebar.css'
 
 export default function Sidebar() {
   return (
-    <div className='border-2 h-screen flex flex-col justify-between sidebar py-8 px-9 w-[400px]'>
+    <div className='border-2 h-screen flex flex-col justify-between sidebar py-8 px-9 w-[400px] bg-white'>
       <div>
         {AvatarData.map((avatar) =>
           <Avatar data={avatar} />
@@ -17,12 +17,12 @@ export default function Sidebar() {
 
       <div className='flex flex-col gap-8'>
         {MenuData.map((menudata) =>
-        <Menu data={menudata}/>
+          <Menu data={menudata} />
         )}
       </div>
 
       <div className='flex gap-4'>
-        <img src={logout} alt= {`this is the ${logout}`} />
+        <img src={logout} alt={`this is the ${logout}`} />
         <div>Logout</div>
       </div>
     </div>

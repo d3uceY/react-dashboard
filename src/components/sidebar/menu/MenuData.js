@@ -5,15 +5,15 @@ import React from 'react'
 
 export const MenuData = [
     {
-        menuImage : pie,
+        menuImage: pie,
         menuName: 'Dashboard'
     },
     {
-        menuImage : holding,
+        menuImage: holding,
         menuName: 'Holdings'
     },
     {
-        menuImage : chart,
+        menuImage: chart,
         menuName: 'Performance'
     }
 ]
