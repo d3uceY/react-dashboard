@@ -5,10 +5,10 @@ export default function menu(props) {
   return (
     <div className='flex items-center gap-4 menu-template'>
       <div>
-        <img className='w-5' src={menuImage} alt={`this is a ${menuName}`} />
+        <img className='w-3 lg:w-5' src={menuImage} alt={`this is a ${menuName}`} />
       </div>
       <div className='relative'>
-        <div className='menu-name'>{menuName}</div>
+        <div className='menu-name text-sm lg:text-md'>{menuName}</div>
       </div>
     </div>
   )

@@ -8,7 +8,7 @@ import './sidebar.css'
 
 export default function Sidebar() {
   return (
-    <div className='border-2 h-screen flex flex-col justify-between sidebar py-8 px-9 w-[400px] bg-white'>
+    <div className='border-2 h-screen hidden xl:flex flex-col justify-between sidebar py-8 px-9 md:w-[300px] lg:w-[300px] xl:w-[400px] bg-white'>
       <div>
         {AvatarData.map((avatar) =>
           <Avatar data={avatar} />

@@ -8,7 +8,7 @@ import FirstSection from '../FirstSection'
 
 export default function Taskbar() {
     return (
-        <div className='flex items-center border taskbar max-w-[550px] justify-between ml-auto'>
+        <div className='flex items-center taskbar max-w-[550px] justify-between ml-auto py-5'>
             <div className='flex items-center '>
                 <img className='w-4' src={sun} alt={`this is the ${sun}`} />
                 <p className='text-dark-grey ml-3 text-sm'>US stock market opens in 3 hours</p>

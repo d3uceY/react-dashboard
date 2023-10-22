@@ -1,0 +1,8 @@
+.apple-icon-container:before{
+    content: '';
+    width: 4px;
+    height: 100%;
+    background: #88D2F3;
+    position: absolute;
+    left: -20px;
+}
