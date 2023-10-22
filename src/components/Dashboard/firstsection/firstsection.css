@@ -8,3 +8,26 @@
     top: 0px;
     border-radius: 100%;
 }
+
+.curved-background {
+    width: 100%;
+    position: absolute;
+    height: 40vh;
+    top: 0;
+    z-index: 2;
+    border-bottom-left-radius: 100px;
+}
+
+/* i just found something out. 
+sometimes if you dont give something position relative, 
+it wont affect it because of an element
+ that has a position of absolute */
+.taskbar {
+    z-index: 4;
+    position: relative;
+}
+
+.userimage{
+    left: -71px;
+    bottom: -22px;
+}
