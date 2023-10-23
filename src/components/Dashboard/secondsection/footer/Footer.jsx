@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
             </div>
             {FooterData.map((data) =>
-                <FooterTemplate data={data} />
+                <FooterTemplate data={data} key={data.id} />
             )}
         </div>
     )

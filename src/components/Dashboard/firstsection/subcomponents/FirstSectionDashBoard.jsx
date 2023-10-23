@@ -22,7 +22,7 @@ export default function FirstSectionDashBoard() {
                 <div className='flex justify-between'>
                     <div className='text-dark-grey  flex items-center z-10 max-w-[200px] w-full justify-between'>
                         {secondDashboardData.map((data) =>
-                            <SecondDashboardTemplate data={data} />
+                            <SecondDashboardTemplate data={data} key={data.id} />
                         )}
                     </div>
                     <div className='border-black border-2 w-[20px] h-[20px] rounded-full flex justify-center items-center font-bold'>
@@ -44,7 +44,7 @@ export default function FirstSectionDashBoard() {
                         </div>
                         <div className='mt-6 flex flex-col gap-1'>
                             {secondDashboardDataColorProfile.map((data) =>
-                                <SecondDashboardDataColorProfileTemplate data={data} />
+                                <SecondDashboardDataColorProfileTemplate data={data} key={data.id} />
                             )}
                         </div>
                     </div>
@@ -75,32 +75,40 @@ function SecondDashboardDataColorProfileTemplate(props) {
 const secondDashboardDataColorProfile = [
     {
         name: 'Portfolio',
-        variant: 'bg-dark-blue'
+        variant: 'bg-dark-blue',
+        id: 1
     },
     {
         name: 'Dollar',
-        variant: 'bg-blue'
+        variant: 'bg-blue',
+        id: 2
     },
     {
         name: 'ETFs',
-        variant: 'bg-red'
+        variant: 'bg-red',
+        id: 3
     }
 ]
 
 const secondDashboardData = [
     {
-        duration: '1d'
+        duration: '1d',
+        id: 1
     },
     {
-        duration: '1w'
+        duration: '1w',
+        id: 2
     },
     {
-        duration: '1m'
+        duration: '1m',
+        id: 3
     },
     {
-        duration: '1y'
+        duration: '1y',
+        id: 4
     },
     {
-        duration: 'All'
+        duration: 'All',
+        id: 5
     }
 ]

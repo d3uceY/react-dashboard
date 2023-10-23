@@ -10,7 +10,7 @@ export default function Portfolio() {
                 <p className='mb-4'>Portfolio Industry</p>
                 <div className='2xl:grid-cols-3 md:grid  lg:grid-cols-2 md:grid-col-1 gap-4 mx-auto'>
                     {PortfolioData.map((data) =>
-                        <PortfolioHistory data={data} />
+                        <PortfolioHistory data={data} key = {data.id} />
                     )}
                 </div>
             </div>

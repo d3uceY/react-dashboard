@@ -23,7 +23,7 @@ export default function Navbar() {
 
             <div className='flex flex-col gap-8'>
                 {MenuData.map((data) =>
-                    <Menu data={data} />
+                    <Menu data={data} key={data.id} />
                 )}
             </div>
 

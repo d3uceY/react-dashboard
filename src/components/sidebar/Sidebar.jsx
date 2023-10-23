@@ -11,13 +11,13 @@ export default function Sidebar() {
     <div className=' h-screen hidden xl:flex flex-col justify-between sidebar py-8 px-9 md:w-[300px] lg:w-[300px] xl:w-[400px] bg-white'>
       <div>
         {AvatarData.map((avatar) =>
-          <Avatar data={avatar} />
+          <Avatar data={avatar} key={avatar.id} />
         )}
       </div>
 
       <div className='flex flex-col gap-8'>
         {MenuData.map((menudata) =>
-          <Menu data={menudata} />
+          <Menu data={menudata} key={menudata.id}/>
         )}
       </div>
 

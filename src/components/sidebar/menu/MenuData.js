@@ -6,14 +6,17 @@ import React from 'react'
 export const MenuData = [
     {
         menuImage: pie,
-        menuName: 'Dashboard'
+        menuName: 'Dashboard',
+        id: 1
     },
     {
         menuImage: holding,
-        menuName: 'Holdings'
+        menuName: 'Holdings',
+        id: 2
     },
     {
         menuImage: chart,
-        menuName: 'Performance'
+        menuName: 'Performance',
+        id: 3
     }
 ]

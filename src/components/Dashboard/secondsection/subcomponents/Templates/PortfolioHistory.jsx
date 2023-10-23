@@ -4,7 +4,7 @@ import '../../secondsection.css'
 export default function PortfolioHistory(props) {
     const { date, price, stat, statBracket } = props.data
     return (
-        <div className='border-2 mb-2 xl:mb-0 flex justify-between flex-col min-h-[300px] p-5 pb-7 rounded-3xl'>
+        <div className='border-2 mb-2 xl:mb-0 flex justify-between flex-col min-h-[300px] p-5 pb-7 rounded-3xl hover:bg-grey'>
             <div className='font-bold date relative'>{date}</div>
             <div className={stat === 143.56 ? 'magicpattern' : ''}></div>
             <div>
