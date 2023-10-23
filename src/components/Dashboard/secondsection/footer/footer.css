@@ -7,6 +7,6 @@
     left: -20px;
 }
 
-.footer > div:not(:last-child){
+.footer > div{
   margin-top: 20px;
 }
