@@ -6,8 +6,8 @@ import './footer.css'
 
 export default function Footer() {
     return (
-        <div className='grid-cols-4 grid gap-4 mt-[4rem]'>
-            <div className='flex justify-between'>
+        <div className='lg:grid-cols-4 md:grid-cols-3 grid gap-4 mt-[4rem] px-6 footer'>
+            <div className='flex justify-between items-center'>
                 <div className='flex flex-col gap-4'>
                     <p className='uppercase text-dark-grey text-xs'>symbol</p>
                     <div className='flex items-center gap-3'>

@@ -9,7 +9,7 @@ import arrowup from '../../../../assets/arrow-up.svg'
 export default function FirstSectionDashBoard() {
     return (
         <div className='relative z-10 xl:flex gap-9 max-w-[1200px] justify-between mx-auto mt-[4rem] px-3'>
-            <div className='shadow-md mx-auto max-w-[450px] first-box relative z-10 lg:max-w-[450px] min-w-[350px] pt-8 pb-6 px-4 bg-white rounded-3xl'>
+            <div className='shadow-md mx-auto max-w-[450px] first-box relative z-10 lg:max-w-[450px]  pt-8 pb-6 px-4 bg-white rounded-3xl'>
                 <h2 className='text-2xl text-very-dark-blue mb-5 text-center'>Upgrade your Account</h2>
                 <img className='absolute userimage' src={user} alt={`this is ${user}`} />
                 <p className='text-dark-grey mb-10 w-1/2 ml-auto'>Access many other features and helpful insights.</p>

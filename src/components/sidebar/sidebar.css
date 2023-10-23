@@ -18,3 +18,8 @@
     width: 20px;
 }
 
+.sidebar{
+    position: sticky;
+    top: 0px;
+}
+

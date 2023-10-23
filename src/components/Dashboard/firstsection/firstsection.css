@@ -16,6 +16,7 @@
     top: 0;
     z-index: 2;
     border-bottom-left-radius: 100px;
+    border-top-right-radius: 50px;
 }
 
 /* i just found something out. 
