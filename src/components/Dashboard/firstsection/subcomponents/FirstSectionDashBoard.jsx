@@ -18,7 +18,7 @@ export default function FirstSectionDashBoard() {
                 </div>
             </div>
 
-            <div className='shadow-md bg-white max-w-[450px] xl:max-w-[700px] mx-auto xl:max-w-2xl p-6 rounded-3xl'>
+            <div className='shadow-md bg-white max-w-[450px] md:max-w-[780px] xl:max-w-[700px] mx-auto  p-6 rounded-3xl'>
                 <div className='flex justify-between'>
                     <div className='text-dark-grey  flex items-center z-10 max-w-[200px] w-full justify-between'>
                         {secondDashboardData.map((data) =>
@@ -29,7 +29,7 @@ export default function FirstSectionDashBoard() {
                         $
                     </div>
                 </div>
-                <div className='xl:flex justify-between gap-3 mt-2'>
+                <div className='md:flex justify-between gap-3 mt-2'>
                     <div>
                         <img src={dashboardchart} alt={`this is ${dashboardchart}`} />
                     </div>
