@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from './avatartemplate/Avatar.jsx'
 import { AvatarData } from './avatartemplate/AvatarData.js'
 import { MenuData } from './menu/MenuData.js'
-import Menu from './menu/menu.jsx'
+import Menu from './menu/Menu.jsx'
 import logout from '../../assets/logout.svg'
 import './sidebar.css'
 

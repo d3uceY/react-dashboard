@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function menu(props) {
+export default function Menu(props) {
   const { menuName, menuImage } = props.data
   return (
     <div className='flex items-center gap-4 menu-template'>
